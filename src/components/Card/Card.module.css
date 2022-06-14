@@ -2,18 +2,21 @@
   /* width: 30%; */
   border: 1px solid rgb(222, 222, 222);
   text-align: center;
+  padding: 1em;
 }
 
-.img {
+/* .img {
   width: 100%;
   max-height: 200px;
   object-fit: cover;
   object-position: top;
-}
+} */
+
 /* .Card_info__ZFLLU .Card_date__VLGDZ */
 .date {
   color: gray;
 }
+
 .info h3 {
   font-weight: normal;
   font-size: 25px;
@@ -26,6 +29,6 @@
 }
 
 .button {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   margin: 5px;
 }

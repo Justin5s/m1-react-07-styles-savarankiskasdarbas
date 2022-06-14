@@ -1,5 +1,5 @@
 h1 {
-  /* display: inline-block; */
+  margin: 0;
 }
 
 .container {
@@ -7,16 +7,31 @@ h1 {
   margin-right: 100px;
   /* display: flex; */
   /* justify-content: space-between; */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr ; */
 }
 
 .button {
   /* max-height: 50px; */
-  transform: translateY(50%);
+  /* transform: translateY(50%); */
 }
 
-.btncontainer {
+.btnContainer {
+  /* display: inline-block; */
   /* text-align: center; */
-  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  /* align-content: center; */
+  
+}
+
+.cardsContainer {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1em
 }

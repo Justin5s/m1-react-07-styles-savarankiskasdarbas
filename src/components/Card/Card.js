@@ -2,7 +2,7 @@ import MyButton from '../MyButton/MyButton';
 import css from './Card.module.css';
 
 function Card() {
-  console.log('css ===', css);
+  // console.log('css ===', css);
   return (
     <div className={css.card}>
       <div className={css.info}>

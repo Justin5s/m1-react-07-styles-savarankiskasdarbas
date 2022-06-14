@@ -1,8 +1,8 @@
 import './App.css';
-import Card from './components/Card/Card';
+// import Card from './components/Card/Card';
 import CardList from './components/CardList/CardList';
 import Header from './components/header/Header';
-import MyButton from './components/MyButton/MyButton';
+// import MyButton from './components/MyButton/MyButton';
 
 function App() {
   return (
