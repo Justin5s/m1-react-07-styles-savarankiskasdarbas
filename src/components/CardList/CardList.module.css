@@ -11,10 +11,10 @@ h1 {
   /* grid-template-columns: 1fr 1fr ; */
 }
 
-.button {
-  /* max-height: 50px; */
-  /* transform: translateY(50%); */
-}
+/* .button {
+  max-height: 50px;
+  transform: translateY(50%);
+} */
 
 .btnContainer {
   /* display: inline-block; */
@@ -35,3 +35,20 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr ;
   gap: 1em
 }
+
+@media screen and (max-width: 700px){
+  .cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
