@@ -9,7 +9,9 @@ function App() {
     <div className='App'>
       <Header />
       <CardList data={[1, 2, 3]} />
-
+      <footer>
+        <p>Copyright &copy; VetBee 2022 all rights reserved</p>
+      </footer>
     </div>
   );
 }
