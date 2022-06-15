@@ -3,7 +3,11 @@ import React from 'react';
 import MyButton from '../MyButton/MyButton';
 import Card from '../Card/Card';
 
-function CardList({ data }) {
+
+
+
+function CardList({ data, cardDelete }) {
+  console.log('data ===', data);
   return (
     <div className={`${css.container}`}>
       <div className={css.btnContainer}>
@@ -15,7 +19,11 @@ function CardList({ data }) {
       </div>
       <div className={css.cardsContainer}>
         {data.map((cards) => (
-          <Card />
+          <Card cardDelete={ () => cardDelete(cards.id)} 
+          key={cards.id} 
+          name={cards.name} 
+          date={cards.dob} 
+          email={cards.client_email} />
         ))}
       </div>
     </div>
@@ -23,3 +31,9 @@ function CardList({ data }) {
 }
 
 export default CardList;
+
+// key={tObj.id}
+// {...tObj}
+// onDelete={props.onDelete}
+// onToggle={props.onToggle}
+// onEdit={props.onEdit}
